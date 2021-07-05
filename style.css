@@ -1,0 +1,92 @@
+img {
+    width: 100%;
+    left: 0px;
+    top: 0px;
+    position: fixed;
+    z-index: -1;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 50% repeat(5, 1fr);
+    background: rgba(19, 22, 33, 0.91);
+
+}
+
+.menu a {
+    text-decoration-line: none;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    margin: 3%;
+
+
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+.Signin {
+    background-color: grey;
+    border-radius: 10%;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Home {
+    grid-column-start: 2;
+}
+
+.text {
+    display: grid;
+    grid-template-rows: 30% repeat(3, 1fr) 30%;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.h1 {
+    font-size: 50px;
+    color: white;
+    background: rgba(19, 22, 33, 0.5);
+    margin: 0px;
+
+}
+
+.h2 {
+    font-size: 22px;
+    color: white;
+    background: rgba(19, 22, 33, 0.5);
+    margin: 0px;
+}
+
+.h3 {
+    font-size: 18px;
+    color: black;
+    background: rgba(243, 245, 245, 0.5);
+    margin: 3%;
+    border-radius: 3px;
+}
+
+.footer {
+    color: white;
+    display: grid;
+    background-color: rgba(19, 22, 33, 0.91);
+    grid-template-columns: 50% repeat(5, 160px);
+}
+
+.foth1 {
+    margin: 0px;
+}
